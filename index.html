@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" 
+        
+        -`
+        MN +\PUH/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">PORT<span>FOLIO</span></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">PORT<span>FOLIO</span></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#skill" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section id="profile" class="" data-aos="fade-left">
+        <div class="section_pic-container">
+            <img src="pics-dev.jpeg" class="profile-img" alt="Profile_Pic">
+        </div>
+        <div class="section-text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Dewansh Kumar Thakur</h1>
+            <h2 class="title">Aspiring</h2>
+            <div class="animated-text"><span></span></div>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('CV_DEWANSH-KUMAR-THAKUR.pdf')">DOWNLOAD
+                    CV</button>
+                <button class="btn btn-color-2" onclick="location.href='./#Contact'">HIRE ME</button>
+            </div>
+            <div class="social-container">
+                <div class="icon" onclick="location.href='https://www.linkedin.com/in/dewansh01/'"><i
+                        class="fa-brands fa-linkedin"></i></div>
+                <div class="icon" onclick="location.href='https://github.com/dewansh107'"><i
+                        class="fa-brands fa-github"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic_container">
+                <img src="final-profile-img.jpeg" class="about-pic" alt="profile Photo">
+            </div>
+            <div class="about-details-container">
+                <div class="text_container">
+                    <h2 class="details-title">Frontend Developer</h2>
+                    <p class="text">
+                        Hello, I'm Dewansh Kumar Thakur, a dedicated 4th-year engineering student specializing in
+                        Electrical and Electronic Engineering (EEE). With a fervent passion for front-end development,
+                        I've honed my skills in HTML, CSS, and JavaScript to create engaging and user-friendly web
+                        experiences.
+
+                        Throughout my academic journey, I've delved into the world of technology, constantly seeking to
+                        expand my knowledge and skills in web development. I have a knack for turning innovative ideas
+                        into functional and visually appealing websites that leave a lasting impression.
+
+                    </p>
+                    <a class="btn-readmore" href="about-more.html"><button class="read-more">Read More</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title-1">Education</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content" data-aos="fade-right">
+                            <div class="year"><i class="fa-regular fa-calendar-days"></i>2021 - 2024</div>
+                            <h3>BTECH - RAIPUR INSTITUTE OF TECHNOLOGY</h3>
+                            <h4>Percentage - Present</h4>
+                            <p>Currently Pursuing 4th year of BTECH IN Electrical $ Electronics Engineering from Raipur Institute of Technology</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content" data-aos="fade-right">
+                            <div class="year"><i class="fa-regular fa-calendar-days"></i>2018 - 2021</div>
+                            <h3>Diploma - GOVT. CO-ED POLYTECHNIC COLLEGE</h3>
+                            <h4>Percentage - 67.92</h4>
+                            <p>Completed Diploma in Electrical Engineering from Govt. CO-ED Polytechnic college</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content" data-aos="fade-right">
+                            <div class="year"><i class="fa-regular fa-calendar-days"></i>2018</div>
+                            <h3>Matriculation - CGBSE</h3>
+                            <h4>Percentage - 72.33</h4>
+                            <p>Completed Matriculation from Tilak Bharti H.S School</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title-1">Experience</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content" data-aos="fade-left">
+                            <div class="year"><i class="fa-regular fa-calendar-days"></i>2021 - 2024</div>
+                            <h3>PHP FULL STACK - RAYS IT & DESIGN WORLD</h3>
+                            <p>
+                                Successfully acquired proficiency in HTML, CSS, JavaScript, Bootstrap, and SQL through a
+                                rigorous one-month PHP training;
+                             to create a Construction Service website in PHP.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content" data-aos="fade-left">
+                            <div class="year"><i class="fa-regular fa-calendar-days"></i>Mar 2023 - Aug 2023</div>
+                            <h3>Web Development & Designing - Oasis InfoByte</h3>
+                            <p>Doing various projects Which are Basic Static Website, Login Page, Contact Form,landing
+                                Page,Responsive Design Using the HTML, CSS, JAVASCRIPT</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content" data-aos="fade-left">
+                            <div class="year"><i class="fa-regular fa-calendar-days"></i>2018</div>
+                            <h3>Web Development for Beginners -Cursa</h3>
+                            <p>Completed the Frontend Development Course and gained knowledge of HTML,CSS,JS and Framework</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILL SECTION -->
+    <section id="skill" class="skill">
+        <h2 class="heading-1">My<span>Skills</span></h2>
+        <div class="skill-row">
+            <div class="skill-column" data-aos="fade-left">
+                <h3 class="title-3">Coding SKills</h3>
+                <div class="skill-box">
+                    <div class="skill-content">
+                        <div class="progress">
+                            <h3>HTML <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JAVASCRIPT <span>40%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>SQL <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>PHP <span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-column" data-aos="fade-left">
+                <h3 class="title-3">Professional Skills</h3>
+                <div class="skill-box">
+                    <div class="skill-content">
+                        <div class="progress">
+                            <h3>Frontend Development <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Development <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>UI/UX Design<span>40%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3> Database Management<span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Backend Development <span>40%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title-4">Projects</h1>
+        <div class="flex-container">
+            <div class="bg-container" data-aos="fade-up-right">
+                <div class="flex-item item1">
+                    <div class="article-container">
+                        <img class="project_img" src="resume-banner.jpeg" alt="Project-1">
+                    </div>
+                    <h2 class="project-title">Ecommerce Website</h2>
+                    <div class="btn-container1">
+                        <button class="project-btn1" onclick="location.href='https://github.com/dewansh107/Ecommerce-Website1.github.io.git'">Github</button>
+                        <button class="project-btn2" onclick="location.href='https://commerce-website-react.vercel.app/'">Live
+                            Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-container" data-aos="fade-up-right">
+                <div class="flex-item item2">
+                    <div class="article-container">
+                        <img class="project_img" src="construction-banner.jpeg" alt="Project-2">
+                    </div>
+                    <h2 class="project-title">Portfolio Website</h2>
+                    <div class="btn-container1">
+                        <button class="project-btn1"
+                            onclick="location.href=''">Github</button>
+                        <button class="project-btn2" onclick="location.href='https://dewansh107.github.io/portfolio-Website.github.io/'">Live
+                            Demo</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bg-container" data-aos="fade-up-right">
+                <div class="flex-item item3">
+                    <div class="article-container">
+                        <img class="project_img" src="projrect-banner-quiz.jpeg" alt="Project-3">
+                    </div>
+                    <h2 class="project-title">Project Three</h2>
+                    <div class="btn-container1">
+                        <button class="project-btn1"
+                            onclick="location.href='https://github.com/dewansh107/quiz-Website-Original.git'">Github</button>
+                        <button class="project-btn2" onclick="location.href='https://github.com/'">Live
+                            Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT SECTIION -->
+    <section id="contact" class="contact">
+        <p class="section_text_p3">Get in Touch</p>
+        <h2 class="heading-5">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="email" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea name="text" id="" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+            <div class="btn-box">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
